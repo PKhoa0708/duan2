@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/pro_poster_7697.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            Lenovo Thinkpad T14 Gen 3 - Build hoàn thiện cực tốt, cực bền - Hiệu
+            năng khỏe - Trải nghiệm dùng cực sướng - Phù hợp với dân IT, Coder
+          </h1>
+          <p>
+            <b> Lenovo Thinkpad/Thinkpad </b> - Một trong những dòng laptop/máy
+            tính xách tay nổi tiếng về độ bền bỉ và đem lại trải nghiệm dùng cực
+            sướng, cực thích. Và đặc biệt trong số đó là mẫu laptop Lenovo
+            Thinkpad T14 Gen 3 - sở hữu cấu hình khỏe, làm tốt các công việc như
+            code web, code game, ….. Cùng với đó là bàn phím nổi tiếng trứ danh,
+            và khả năng chống tràn nước cực tốt, mẫu laptop văn phòng này chắc
+            chắn sẽ không làm bạn thất vọng khi sử dụng.
+          </p>
+          <p>
+            <i>
+              - Sở hữu cấu hình vượt trội giúp bạn xử lý cực tốt mọi tác vụ, và
+              cũng làm tốt các việc nặng như: code, lập trình web, di động, chạy
+              máy ảo cực mượt.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Thiết kế mỏng nhẹ trọng lượng chỉ 1.2kg, siêu bền bỉ đạt chuẩn
+              độ bền quân đội Mỹ, máy có bị rơi, va đập thì cũng không lo máy bị
+              móp méo. Bạn hoàn toàn dùng đến 10 năm không lo hỏng hóc.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình 14 inch độ phân giải Full HD+ cho mọi hình ảnh được
+              hiển thị vô cùng chân thật, sắc nét. Cùng tấm nền IPS còn cung cấp
+              góc nhìn lên tới 178 độ.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Bàn phím nổi tiếng trứ danh của dòng Thinkpad, gõ cực sướng, độ
+              nảy tốt và hành trình phím sâu. Cùng với đó là khả năng chống tràn
+              cực đỉnh.
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>Lenovo ThinkPad T14 Gen 3</h2>
+          <p><strong>CPU:</strong> AMD Ryzen 7-6850U</p>
+          <p><strong>RAM:</strong> 16GB DDR4</p>
+          <p><strong>Ổ cứng:</strong> SSD 512GB NVMe</p>
+          <p><strong>Card đồ họa:</strong> AMD Radeon Graphics</p>
+          <p><strong>Màn hình:</strong> 14" Full HD</p>
+          <p class="price">Giá: 35,000,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsplenovo3.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

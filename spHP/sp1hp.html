@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/pro_poster_8924.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            HP Envy 16 ac0013dx - Chip Ultra 5 125U mới nhất, cực khỏe - RAM
+            16GB đa nhiệm cực mượt - Màn 16 inch cảm ứng đa điểm
+          </h1>
+          <p>
+            HP Envy là chiếc laptop/ máy tính xách tay có khả năng xoay gập 360
+            độ đến từ thương hiệu đình đám HP. Chiếc laptop HP 2024 này sở hữu
+            chip mới mạnh mẽ Ultra 5 125U đem lại hiệu năng cực đỉnh, đem lại
+            hiệu suất làm việc mượt mà. Là chiếc laptop văn phòng với màn hình
+            lớn 16 inch cho khả năng cảm ứng đa điểm cực tiện cho công việc sáng
+            tạo, đồ họa. Cùng khám phá sâu hơn chiếc
+            <b>HP Envy 16 ac0013dx</b> trong bài viết dưới đây nhé!
+          </p>
+          <p>
+            <i>
+              - Hiệu năng vượt trội với chip mới Ultra 5 125U xử lý mọi tác vụ
+              văn phòng cực tốt, đồ họa mượt
+            </i>
+          </p>
+          <p>
+            <i>
+              - Thiết kế đặc trưng của dòng HP Envy: mỏng nhe, xoay gập 360 độ,
+              linh hoạt trong mọi công việc
+            </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình 16 inch Full HD+ cho khả năng hiển thị hình ảnh sắc
+              nét, cảm ứng cực nhạy
+            </i>
+          </p>
+          <p>
+            <i>
+              - Bàn phím lớn, cực nảy và touchpad lớn cho trải nghiệm cực sướng
+              khi thao tác <br />
+              <br />
+              - Đa dạng cổng kết nối
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>Laptop HP Envy x360 2 in 1</h2>
+          <p><strong>CPU:</strong> Intel Core Ultra 5-125U</p>
+          <p><strong>RAM:</strong> 16GB DDR5</p>
+          <p><strong>Ổ cứng:</strong> SSD 512GB NVMe</p>
+          <p><strong>Card đồ họa:</strong> Intel graphics</p>
+          <p><strong>Màn hình:</strong> 16" Full HD+ Touch</p>
+          <p class="price">Giá: 15,700,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsphp1.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

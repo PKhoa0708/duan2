@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/9019_lenovo_yoga_7_2_in_1_14iml9_83dj001fvn_anb_m___i.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            Lenovo Yoga 7 2in1 mới 2024 - Build NGON NHẤT TẦM GIÁ - Xoay gập 360
+            độ cực linh hoạt - Pin trâu dùng đến 10 giờ
+          </h1>
+          <p>
+            <b>Lenovo Yoga 7 2in1 </b> là một trong những chiếc laptop/máy tính
+            xách tay mỏng nhẹ, cao cấp rất đáng mua trong tầm giá 17 triệu đồng.
+            Đây là dòng laptop Lenovo Yoga sở hữu chip 2024 đời mới đáp ứng tốt
+            mọi công việc phức tạp vừa có khả năng xoay gập 360 độ cực linh
+            hoạt. Ngoài ra, dòng laptop mỏng nhẹ Lenovo Yoga đến từ thương hiệu
+            Laptop Lenovo này còn sở hữu độ bền chắc chắn cùng chế độ siêu tiết
+            kiệm pin. Đây được xem là chiếc laptop HOT nhất trong thời gian tới
+            mà bạn không thể bỏ qua!
+          </p>
+          <p>
+            <i>
+              - Được trang bị vi xử lý Ultra 5 125U đời mới 2024 có 12 nhân 14
+              luồng, đem đến hiệu năng mạnh mẽ giúp bạn có thể xử lý mọi công
+              việc phức tạp như code, excel nặng hay chơi các tựa game HOT ở
+              setting cao và làm đồ họa 2D, edit video siêu mượt mà
+            </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình 14 inch Full HD cùng chức năng cảm ứng đa điểm nhạy
+              mượt với độ chuẩn màu đạt IPS, bạn sẽ có được trải nghiệm hình ảnh
+              siêu sắc nét, sống động.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Bản lề bằng thép xoay gập 360 độ cực kỳ linh hoạt và chắc chắn,
+              laptop 2 in 1 đáp ứng mọi nhu cầu và thích hợp với mọi hoàn cảnh
+              hội họp hay làm việc
+            </i>
+          </p>
+          <p>
+            <i>
+              - Thiết kế sang trọng, tinh tế, build máy full kim loại được hoàn
+              thiện cực tốt, siêu chắc chắn và cứng cáp.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Dung lượng Pin trâu cùng chế độ siêu tiết kiệm pin hiệu quả.
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>LENOVO YOGA 7 2 IN 1 14IML9</h2>
+          <p><strong>CPU:</strong> Intel Core Ultra7 155H</p>
+          <p><strong>RAM:</strong> 16GB LPDDR5x-7467Mhz</p>
+          <p><strong>Ổ cứng:</strong> SSD 512GB NVMe</p>
+          <p><strong>Card đồ họa:</strong> Intel Arc Graphics</p>
+          <p><strong>Màn hình:</strong> 14" OLED 100% DCI-P3</p>
+          <p class="price">Giá: 27,900,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsplenovo2.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

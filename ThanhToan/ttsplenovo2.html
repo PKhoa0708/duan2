@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanh Toán</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        background-color: #f8f9fa;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      .form-container {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      .product-image {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 5px;
+      }
+
+      .submit-btn {
+        background-color: chocolate;
+        color: white;
+        padding: 10px;
+        border: none;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      .submit-btn:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Thông Tin Thanh Toán</h2>
+
+    <div class="form-container">
+      <div class="form-group">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" placeholder="Nhập họ và tên" required />
+      </div>
+
+      <div class="form-group">
+        <label for="address">Địa Chỉ:</label>
+        <input
+          type="text"
+          id="address"
+          placeholder="Nhập địa chỉ giao hàng"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Số Điện Thoại:</label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Nhập số điện thoại"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="payment">Hình Thức Thanh Toán:</label>
+        <select id="payment">
+          <option value="cod">Thanh toán khi nhận hàng (COD)</option>
+          <option value="bank">Chuyển khoản ngân hàng</option>
+          <option value="momo">Ví Momo</option>
+          <option value="credit">Thẻ tín dụng</option>
+        </select>
+      </div>
+
+      <div class="product-image">
+        <h3>Sản Phẩm</h3>
+        <img
+          src="https://laptop88.vn/media/product/9019_lenovo_yoga_7_2_in_1_14iml9_83dj001fvn_anb_m___i.jpg"
+          alt="Hình ảnh sản phẩm"
+        />
+      </div>
+
+      <button class="submit-btn">Xác Nhận Thanh Toán</button>
+    </div>
+  </body>
+</html>

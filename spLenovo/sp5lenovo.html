@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/250_9189_85775_laptop_lenovo_thinkbook_16_gen_6_21kk0060vn_r7_7730u_32gb_ram_1tb_ssd_16_wqxga_win11_xam__6___1_.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            Lenovo ThinkBook 16 Gen 6 21KK0060VN: Hiệu năng vượt trội R7-7730U -
+            Đa nhiệm mượt 32GB - Màn 2K cực đẹp - Pin 8h
+          </h1>
+          <p>
+            Trong thế giới công nghệ hiện nay, laptop Lenovo luôn đứng đầu với
+            những dòng sản phẩm laptop mạnh mẽ, phục vụ cho nhu cầu công việc
+            lẫn giải trí của người dùng. Lenovo ThinkBook 16 Gen 6 21KK0060VN
+            không chỉ là một thiết bị công nghệ đơn thuần mà còn là một trợ thủ
+            đắc lực cho các doanh nhân, nhân viên văn phòng và người dùng chuyên
+            nghiệp. Với thiết kế hiện đại, cấu hình mạnh mẽ và hiệu suất vượt
+            trội, đây chắc chắn là một chiếc laptop/ máy tính xách tay đáng để
+            bạn đầu tư. Hãy cùng tìm hiểu sâu hơn về chiếc Lenovo Thinkbook/
+            Thinkbook này nhé!
+          </p>
+          <p>
+            <i>
+              - Chip R7-7730U đem đến hiệu năng mạnh, cân mọi tác vụ văn phòng
+              cực tốt
+            </i>
+          </p>
+          <p>
+            <i> - Đa nhiệm cực mượt với RAM 32GB và ổ cứng lớn 1TB </i>
+          </p>
+          <p>
+            <i> - Thiết kế bền bỉ, sang trọng được làm từ chất liệu nhôm </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình 2K cực nét cho khả năng trải nghiệm hình ảnh cực tốt
+            </i>
+          </p>
+          <p>
+            <i> - Pin dùng đến 8 tiếng </i>
+          </p>
+          <p>
+            <i> - Kết nối đa dạng </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>Laptop Lenovo ThinkBook 16 Gen 6</h2>
+          <p><strong>CPU:</strong> AMD Ryzen 7 7730U</p>
+          <p><strong>RAM:</strong> 32GB DDR4</p>
+          <p><strong>Ổ cứng:</strong> SSD 1TB NVMe</p>
+          <p><strong>Card đồ họa:</strong> AMD Radeon Graphics</p>
+          <p><strong>Màn hình:</strong> 16" 2K 100% sRGB</p>
+          <p class="price">Giá: 21,590,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsplenovo5.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

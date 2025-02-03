@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/9069_8701_photo_2024_01_02_11_09_24.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            Legion 5 R7000P Ryzen 5 - Build chắc chắn - Tản mát - Cân mượt mọi
+            tựa game và các tác vụ nặng
+          </h1>
+          <p>
+            <b> Legion 5 R7000P Ryzen 5 </b> là mẫu laptop gaming đến từ thương
+            hiệu laptop Lenovo đã được giới game thủ đánh giá cực cao trong thời
+            gian vừa qua. Bởi lẽ, chiếc laptop - máy tính xách tay chơi game này
+            không chỉ sở hữu thiết kế bền bỉ, cực chắc chắn mà còn có hiệu năng
+            đồ họa vượt trội, cùng hệ thống tản nhiệt mát mẻ. Để tìm hiểu chi
+            tiết hơn về dòng sản phẩm Lenovo Legion này, mời các bạn tham khảo
+            nội dung dưới đây!
+          </p>
+          <p>
+            <i>
+              - Cấu hình cực khỏe với chip R5-6600H kết hợp cùng card AMD RTX
+              3050 cho hiệu năng siêu mạnh mẽ không ngại một tựa game bom tấn
+              nào mà còn làm đồ họa 3D chuyên nghiệp cực mượt.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình lớn 15.6 inch, 2.5K cho hình ảnh mượt mà, tần số quét
+              165hz không giật lag, đạt tiêu chuẩn màu sắc trong đồ họa, thiết
+              kế
+            </i>
+          </p>
+          <p>
+            <i>
+              - Build máy hoàn thiện, sở hữu thiết kế không quá hầm hố nhưng vẫn
+              cực hiện đại và đậm chất gaming
+            </i>
+          </p>
+          <p>
+            <i>
+              - Tản nhiệt mạnh mẽ, mát mẻ luôn giúp máy ổn định nhiệt độ cho dù
+              bạn có chạy đa nhiệm cũng không lo máy bị nóng
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>Laptop Lenovo Legion 5 R7000P</h2>
+          <p><strong>CPU:</strong> AMD Ryzen 5-6600H</p>
+          <p><strong>RAM:</strong> 16GB DDR5-4800</p>
+          <p><strong>Ổ cứng:</strong> SSD 512GB NVMe</p>
+          <p><strong>Card đồ họa:</strong> Nvidia RTX 3050</p>
+          <p><strong>Màn hình:</strong> 15.6" 2.5K 165Hz</p>
+          <p class="price">Giá: 21,990,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsplenovo6.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

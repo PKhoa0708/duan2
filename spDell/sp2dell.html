@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1>Chi Tiết Sản Phẩm</h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/pro_poster_9303.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            Dell Inspiron 7640 Plus: Màn 2.5K, chuẩn màu 100% sRGB mãn nhãn -
+            Chip i7 Gen 13 dòng H mạnh mẽ- Lập trình, code nhanh gọn
+          </h1>
+          <p>
+            <b> Dell Inspiron 7640 Plus</b> một trong những mẫu laptop/máy tính
+            xách tay cực kỳ được ưa chuộng trong năm 2024 của nhà laptop Dell.
+            Với sự nâng cấp về cấu hình, nên chiếc laptop văn phòng này sở hữu
+            cấu hình cực khủng cực khủng với chip i7 mạnh mẽ. Màn lớn chuẩn màu
+            siêu sắc nét hỗ trợ làm việc cực tốt. Chiếc laptop Dell core i7 -
+            Dell Inspiron này hứa hẹn sẽ tiếp tục là một siêu phẩm được nhiều
+            người ưa chuộng trong thời gian tới.
+          </p>
+          <p>
+            <i>
+              - Siêu phẩm màn hình to 16 inch cực đẹp với độ phân giải 2.5K, độ
+              chuẩn màu 100% sRGB cho màu cực chuẩn, hình ảnh sống động, chân
+              thực như ngoài rạp, phục vụ cực tốt khi làm việc, giải trí, đặc
+              biệt là làm photoshop
+            </i>
+          </p>
+          <p>
+            <i>
+              - Trang bị chip Intel Core i7-13620H thuộc dòng H cho hiệu năng
+              cực kì mạnh mẽ, chiếc máy dư sức xử lý mọi tác vụ văn phòng đơn
+              giản tới những công việc thiết kế đồ họa 2D, học lập trình, code
+              web.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Thiết kế cao cấp, sang trọng và lịch lãm, vỏ máy siêu bền bỉ và
+              chắc chắn với độ hoàn thiện vượt trội nâng cao khả năng chống sốc,
+              chống rơi vỡ cực tốt giúp hoàn toàn yên tâm sử dụng trong thời
+              gian dài
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>Dell Inspiron 16 Plus 7640</h2>
+          <p><strong>CPU:</strong> i7 13620H</p>
+          <p><strong>RAM:</strong> 16GB LPDDR5 - 4800</p>
+          <p><strong>Ổ cứng:</strong> SSD 1TB NVMe</p>
+          <p><strong>Card đồ họa:</strong> Intel Iris Xe Graphics</p>
+          <p><strong>Màn hình:</strong> 16" 2.5K</p>
+          <p class="price">Giá: 21,490,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttspdell2.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

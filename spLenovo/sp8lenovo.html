@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      h1 b {
+        font-size: 35px;
+      }
+      .container p i {
+        color: #e63946;
+      }
+
+      h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+
+      .product-info {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .product-image img {
+        max-width: 90%;
+        border-radius: 10px;
+      }
+
+      .product-details {
+        flex: 1;
+      }
+
+      .product-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .product-details ul li strong {
+        color: #555;
+      }
+
+      .price {
+        font-size: 20px;
+        color: #e63946;
+        margin: 10px 0;
+      }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+      }
+
+      .actions button {
+        flex: 1;
+        padding: 15px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .buy-now {
+        background-color: #28a745;
+      }
+
+      .buy-now:hover {
+        background-color: #218838;
+      }
+
+      .add-to-cart {
+        background-color: #007bff;
+      }
+
+      .add-to-cart:hover {
+        background-color: #0056b3;
+      }
+
+      .cart-icon {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: coral;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+
+      .cart-icon img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .cart-icon span {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #e63946;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cart-icon" onclick="alert('Đi tới giỏ hàng')">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcXEStR8Y7jLx5vC7IgRdBMLvBZphnwNyPg&s"
+        alt="Giỏ hàng"
+      />
+      <span>3</span>
+    </div>
+
+    <div class="container">
+      <h1><b>Chi Tiết Sản Phẩm</b></h1>
+      <div class="product-info">
+        <div class="product-image">
+          <img
+            src="https://laptop88.vn/media/product/250_9014_82997_laptop_lenovo_legion_pro_7_16irx9h_83de001nvn_i9_14900hx_32gb_ram_1tb_ssd_16_wqxga_240hz_rtx_4080_6g_win11_den__1_.jpg"
+            alt="Laptop"
+          />
+          <h3>
+            <i><u>Đặc điểm nổi bật</u></i>
+          </h3>
+          <h1>
+            LEGION PRO 7 16IRX9H 83DE001NVN: Cấu hình MỚI NHẤT 2024 - Chip i9
+            14900HX + card RTX 4080 cực khỏe - Màn 2K chuẩn màu
+          </h1>
+          <p>
+            Sau thành công của các mẫu máy tính xách tay chơi game hay laptop
+            gaming 2023, Lenovo đã bắt đầu lên kế hoạch tiếp theo và cho ra mắt
+            những mẫu laptop gaming Lenovo cao cấp như Lenovo Legion Pro 7. Cụ
+            thể là chiếc LEGION PRO 7 16IRX9H 83DE001NVN - Đây là một trong
+            những chiếc Lenovo Legion cao cấp nhất trên thị trường hiện nay, mà
+            đang được nhiều game thủ ngóng chờ xuất hiện. Vì là mẫu laptop 2024
+            nên mẫu laptop Lenovo này sở hữu cho mình cấu hình đời mới nhất cùng
+            nhiều tính năng hiện đại cho game thủ có được những trải nghiệm chơi
+            game hay làm việc đều vô cùng chuyên nghiệp.
+          </p>
+          <p>
+            <i>
+              - Sở hữu cấu hình cực KHỦNG chip i9 14900HX cùng NVIDIA® GeForce
+              RTX™ 4080 12GB GDDR6. Dù là chơi các tựa game nặng hay xử lý các
+              phần mềm đồ họa 3D, âm thanh chuyên nghiệp đều không thể làm khó
+              được chiếc máy này.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Bộ nhớ RAM lên đến 32GB DDR5 và bộ nhớ SSD trong lên đến 1TB cho
+              tốc độ xử lý nhanh chóng, mượt mà không độ trễ ngay cả khi bạn mở
+              cùng lúc nhiều file dữ liệu lớn hay khởi động ứng dụng nặng.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Màn hình lớn 16 inch WQXGA (2560x1600), tần số quét 240Hz, có độ
+              sáng lên tới 500 nits và đạt chuẩn màu 100% DCI-P3 cho hình ảnh
+              chuyển động mượt mà, không giật lag, đáp ứng tiêu chuẩn màu sắc
+              trong đồ họa, thiết kế chuyên nghiệp.
+            </i>
+          </p>
+          <p>
+            <i>
+              - Thiết kế chắc chắn với build máy hoàn thiện, mang ấn tượng về
+              một chiếc máy gaming mạnh mẽ
+              <br />
+              <br />
+
+              - Tản nhiệt mạnh mẽ, ấn tượng, chạy nhiều tác vụ nặng trong thời
+              gian dài mà không lo nóng máy
+            </i>
+          </p>
+        </div>
+
+        <div class="product-details">
+          <h2>LENOVO LEGION PRO 7 16IRX9H</h2>
+          <p><strong>CPU:</strong> Intel Core i9-14900HX</p>
+          <p><strong>RAM:</strong> 32GB DDR5 5600Mhz</p>
+          <p><strong>Ổ cứng:</strong> SSD 1TB NVMe</p>
+          <p><strong>Card đồ họa:</strong> NVIDIA RTX 4080 12GB</p>
+          <p><strong>Màn hình:</strong> 16" 240Hz 100% DCI-P3</p>
+          <p class="price">Giá: 86,990,000đ</p>
+
+          <div class="actions">
+            <a href="../ThanhToan/ttsplenovo8.html"
+              ><button class="buy-now">Xác Nhận Mua</button></a
+            >
+            <a href=""
+              ><button class="add-to-cart">Thêm Vào Giỏ Hàng</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
